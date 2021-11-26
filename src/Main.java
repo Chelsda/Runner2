@@ -16,10 +16,6 @@ public class Main extends Application {
         root.getChildren().add(theGameScene.getHero().getImgHero());
         root.getChildren().add(theGameScene.getImgLife().getImgLife());
         root.getChildren().add(theGameScene.getFoe().getImgFoe());
-        //root.getChildren().add(theGameScene.getImgLife(1).getImgLife());
-        //root.getChildren().add(theGameScene.getImgLife(2).getImgLife());
-        //root.getChildren().add(theGameScene.getImgLife(3).getImgLife());
-
         primaryStage.show();
     }
 
