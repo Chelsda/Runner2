@@ -14,9 +14,6 @@ public class GameScene extends Scene {
     private Hero hero;
     private AnimationTimer timer;
     private Stone stone;
-    private double deltaAlt=40;
-    private int nbLifeLeft=3;
-    private int sizeHeart= 34;
 
     public GameScene(Parent p, double x, double y){
         super (p,x,y);
