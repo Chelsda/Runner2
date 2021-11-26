@@ -6,14 +6,12 @@ public abstract class AnimatedThing {
     protected double x;
     protected double y;
     private ImageView imgHero;
-    private double alt=250;
     private int hHero=100;
     private int lHero=85;
     private int deltaT=50000000;
     private long time=0;
     private int index=0;
     private int maxIndex=5;
-    private int windSize;
     private int offset=160;
     private int speed=5;
     private boolean jump=false;
